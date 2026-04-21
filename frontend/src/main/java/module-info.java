@@ -1,4 +1,4 @@
-module com.example.backend {
+module com.example.frontend {
     requires javafx.controls;
     requires javafx.fxml;
 
@@ -6,6 +6,6 @@ module com.example.backend {
     requires com.dlsc.formsfx;
     requires net.synedra.validatorfx;
 
-    opens com.example.backend to javafx.fxml;
-    exports com.example.backend;
+    opens com.example.frontend to javafx.fxml;
+    exports com.example.frontend;
 }

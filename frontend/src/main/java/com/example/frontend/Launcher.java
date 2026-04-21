@@ -1,4 +1,4 @@
-package com.example.backend;
+package com.example.frontend;
 
 import javafx.application.Application;
 
